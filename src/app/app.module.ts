@@ -23,6 +23,8 @@ import { ClientnotesComponent } from './components/clientnotes/clientnotes.compo
 import { ClientinvoiceComponent } from './components/clientinvoice/clientinvoice.component';
 import { ClientContactComponent } from './components/client-contact/client-contact.component';
 import { ClientresetpassowrdComponent } from './components/clientresetpassowrd/clientresetpassowrd.component';
+import { ClientresetpasswordComponent } from './components/clientresetpassword/clientresetpassword.component';
+import { CounsellorfacilityComponent } from './components/counsellorfacility/counsellorfacility.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { ClientresetpassowrdComponent } from './components/clientresetpassowrd/c
     ClientnotesComponent,
     ClientinvoiceComponent,
     ClientContactComponent,
-    ClientresetpassowrdComponent
+    ClientresetpassowrdComponent,
+    ClientresetpasswordComponent,
+    CounsellorfacilityComponent
   ],
   imports: [
     BrowserModule,

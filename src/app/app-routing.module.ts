@@ -15,6 +15,8 @@ import { CounsellorclientmessageComponent } from './components/counsellorclientm
 import { ClientnotesComponent } from './components/clientnotes/clientnotes.component';
 import { ClientinvoiceComponent } from './components/clientinvoice/clientinvoice.component';
 import { ClientContactComponent } from './components/client-contact/client-contact.component';
+import { ClientresetpasswordComponent } from './components/clientresetpassword/clientresetpassword.component';
+import { CounsellorfacilityComponent } from './components/counsellorfacility/counsellorfacility.component';
 
 
 const routes: Routes = [
@@ -34,7 +36,8 @@ const routes: Routes = [
 {path:'ClientnotesComponent',component:ClientnotesComponent},
 {path:'ClientinvoiceComponent',component:ClientinvoiceComponent},
 {path:'ClientContactComponent',component:ClientContactComponent},
-{path:'ClientresetpassowrdComponent',component:ClientContactComponent},
+{path:'Clientresetpassowrd',component:ClientresetpasswordComponent},
+{path:'counsellorfacility',component:CounsellorfacilityComponent},
 ];
 
 @NgModule({
